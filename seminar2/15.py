@@ -4,4 +4,4 @@ import random
 
 num = random.randint(160,165) #ищем 161
 
-print('Кратно' if num % 7 == 0 and num % 23 == 0 else 'Не кратно')
+print(f'{num}','Кратно' if num % 7 == 0 and num % 23 == 0 else 'Не кратно')

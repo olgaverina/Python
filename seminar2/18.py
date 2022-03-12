@@ -2,5 +2,6 @@
 x = bool
 y = bool
 
+
 z = (not(x or y)) == (not x and not y)
-print (z)
+print (f'x - {x}, y - {y}, z - {z}')
